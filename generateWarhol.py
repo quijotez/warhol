@@ -110,7 +110,6 @@ def main(args):
                     img_resized = shift_hue(img_resized,hue_cur_step)
                 else:
                     img_resized = shift_hue(img_resized2,hue_cur_step)
-                    img_resized.show()
                 hue_cur_step = hue_next_step
             if len(USED_FILTERS) > 0:
                 try:
